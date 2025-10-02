@@ -1,17 +1,46 @@
-* {
-  margin:0px;
-  padding:0px;
+
+.navbar {
+  background: #24292f;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar img {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.navbar h1 {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin-right: auto;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 7px 12px;
+  border-radius: 7px;
+  transition: background 0.9s;
+}
+
+.navbar a:hover {
+  background: #444c56;
 }
 
 #octocat {
   display: block;
-  width:384px;
+  width: 384px;
   margin: 50px auto;
 }
 
 p {
   display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  width: 350px;
+  margin: 20px auto;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  text-align: center;
 }
